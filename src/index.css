@@ -4,4 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    height: 90vh;
+    background: black;
 }

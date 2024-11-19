@@ -1,16 +1,20 @@
-
+h1{
+  justify-content: center;
+  display: flex;
+  color: hsl(0, 89%, 22%);
+  font: bolder;
+}
 .stop-watch {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle, #38383a 50%, #141414);
-  color: white;
+  background: radial-gradient(circle, #0d0d0e 50%, #141414);
   height: 35vh;
   font-family: 'Arial', sans-serif;
   border: 5px solid hsl(0, 89%, 22%);
   border-radius: 50px;
-  padding: 10px;
+  padding: 2rem;
 }
 
 .display-time {
@@ -24,7 +28,7 @@
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace; 
   background: hsla(3, 84%, 19%, 0.8); 
-  border: 2px solid rgba(0, 0, 0, 0.6);
+  /* border: 2px solid rgba(0, 0, 0, 0.6); */
   border-radius: 50px;
   margin-bottom: 20px;
   text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
