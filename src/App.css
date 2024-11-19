@@ -1,0 +1,97 @@
+
+.stop-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #38383a 50%, #141414);
+  color: white;
+  height: 35vh;
+  font-family: 'Arial', sans-serif;
+  border: 5px solid hsl(0, 89%, 22%);
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.display-time {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 22rem; 
+  height: 5rem; 
+  font-size: 3rem; 
+  padding: 1.5rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace; 
+  background: hsla(3, 84%, 19%, 0.8); 
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  margin-bottom: 20px;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  color: #0e0d0d;
+  box-shadow: 0px 8px 20px rgba(255, 59, 48, 0.4);
+  letter-spacing: 0.1rem; 
+  overflow: hidden; 
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgb(19, 18, 18);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.start-button {
+ 
+  background: #05380a;
+}
+
+.start-button:hover {
+  background: #1b221ea4; 
+  box-shadow: 0px 12px 20px rgba(255, 69, 58, 0.5);
+  transform: background 0.5 ease;
+}
+
+.stop-button {
+  background: #df443c; 
+}
+
+.stop-button:hover {
+  background: #ff4d40;
+  box-shadow: 0px 12px 20px rgba(255, 59, 48, 0.5);
+}
+
+.reset-button {
+  background: rgba(182, 155, 3, 0.726); 
+ 
+}
+
+.reset-button:hover {
+  background: #757024;
+
+  box-shadow: 0px 12px 20px rgba(255, 69, 58, 0.3);
+}
+
+@media (max-width: 768px) {
+  .display-time {
+    font-size: 3rem;
+    padding: 15px 30px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+}
+
+  
